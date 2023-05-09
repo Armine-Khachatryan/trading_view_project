@@ -1,0 +1,88 @@
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*img {*/
+/*    max-width: 100%;*/
+/*}*/
+/*body{*/
+/*    background-color: #F5F5F5;*/
+/*    min-height: 100vh;*/
+/*    width:100%;*/
+/*}*/
+/*html{*/
+/*    scroll-behavior: smooth;*/
+/*}*/
+
+/*.container{*/
+/*    max-width: 1760px;*/
+/*    width: 100%;*/
+/*    padding-left: 15px;*/
+/*    padding-right: 15px;*/
+/*    margin: 0 auto;*/
+/*    z-index: 10;*/
+/*}*/
+
+/*.whole{*/
+/*    background: #181818;*/
+/*    display: flex;*/
+/*}*/
+/*.left{*/
+/*    width: 50%;*/
+/*}*/
+
+/*.right{*/
+/*    width: 50%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.chartContainer {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    max-width: 120px;*/
+/*}*/
+/*.parent {*/
+/*    height: 100px !important;*/
+/*    max-width: 1750px;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: Mulish_Bold;*/
+/*    src: url(assets/fonts/Mulish/Mulish_Bold.ttf);*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: Mulish_SemiBold;*/
+/*    src: url(assets/fonts/Mulish/Mulish_SemiBold.ttf);*/
+/*}*/
+/*@font-face {*/
+/*    font-family: Mulish_Medium;*/
+/*    src: url(assets/fonts/Mulish/Mulish_Medium.ttf);*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: Mulish_Regular;*/
+/*    src: url(assets/fonts/Mulish/Mulish_Regular.ttf);*/
+/*}*/
+/*@font-face {*/
+/*    font-family: Mulish_Light;*/
+/*    src: url(assets/fonts/Mulish/Mulish_Light.ttf);*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: Lato_Light;*/
+/*    src: url(assets/fonts/Lato/Lato_Light.ttf);*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: Lato_Regular;*/
+/*    src: url(assets/fonts/Lato/Lato_Regular.ttf);*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: Lato_Bold;*/
+/*    src: url(assets/fonts/Lato/Lato_Bold.ttf);*/
+/*}*/

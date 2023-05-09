@@ -1,0 +1,70 @@
+.wholeDiv{
+    padding-top:80px;
+    padding-bottom: 33px;
+    background-color: #181818;
+    margin-bottom: 50px;
+}
+
+.labelDiv{
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+    max-width: 301px;
+    width: 100%;
+}
+
+.labelStyle{
+    font-family: Lato_Regular,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.selectStyle{
+    max-width: 301px;
+    width: 100%;
+    border: 1px solid #B38B62;
+    border-radius: 16px;
+    padding: 12px;
+    background-color:#181818;
+    font-family: Lato_Regular,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.inputs{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.setParam{
+    padding:12px 22px;
+    max-width: 160px;
+    width: 100%;
+    background-color: #B38B62;
+    font-family: Mulish_SemiBold,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.clearAll{
+    padding: 11px 30px;
+    border: 1px solid #B38B62;
+    border-radius: 16px;
+    background-color: #181818;
+    font-family: Mulish_SemiBold,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}

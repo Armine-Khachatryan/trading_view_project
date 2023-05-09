@@ -1,0 +1,23 @@
+.termAll{
+    display: flex;
+    flex-direction: column;
+    padding-left: 58px;
+}
+
+.btnTerm{
+    border: 2px solid #878787;
+    border-radius: 32px;
+    padding: 102px 124px;
+    font-family: Mulish_SemiBold,sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.active{
+    background: #B38B62;
+}

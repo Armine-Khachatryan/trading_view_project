@@ -1,0 +1,49 @@
+.imgStyle{
+    height: 100vh;
+}
+.welcome{
+    font-family: Mulish_SemiBold,sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.title{
+    font-family: Mulish_SemiBold,sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.belowDiv{
+    margin-top: 32px;
+    font-family: Mulish_Regular,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.sign{
+    font-family: Mulish_Regular,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 5px;
+    color:#B38B62;
+    cursor: pointer;
+}
+
+.signUpError{
+    font-family: Mulish_Regular,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+}

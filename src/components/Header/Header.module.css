@@ -1,0 +1,128 @@
+.headerWhole{
+    background: #181818;
+    padding: 22px 0px;
+    border-bottom: 2px solid #B38B62;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLeft{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: Lato_Bold,sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-right: 16px;
+}
+
+.notify{
+    padding-left: 16px;
+    border-left: 1px solid #878787;
+    display: flex;
+    align-items: center;
+}
+
+.notifyDiv{
+    font-family: Lato_Bold,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.imgSpan{
+    margin-left: 12px;
+}
+
+.headerRight{
+    display: flex;
+    align-items: center;
+}
+
+.headerName{
+    font-family: Lato_Regular,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-right: 12px;
+    border-right: 1px solid #878787;
+    margin-right: 12px;
+}
+
+.logOut{
+    font-family: Lato_Regular,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.switchLabel {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height:24px;
+}
+
+.switchLabel input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.sliderRound {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #B38B62;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.sliderRound:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.switchLabel input:checked + .slider {
+    background-color: #2196F3;
+}
+
+.switchLabel input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.switchLabel input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.sliderRound{
+    border-radius: 34px;
+}
+
+.sliderRound:before {
+    border-radius: 50%;
+}
